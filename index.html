@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    
+
+    <meta charset="utf-8" />
+    <title>Demo</title>
+  
+    <style>
+        
+        .label {
+            color: white;
+            padding: 8px;
+            font-family: Arial;
+        }
+
+        .Name1 {
+            background-color: black;
+        }
+
+        .Name2 {
+            background-color: red;
+        }
+
+        .Name3 {
+            background-color: orange;
+        }
+
+        .Name4 {
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <span class="label Name1"><label id="newname1"></label></span>
+    <p> </p>
+    <p id="entername1"></p>
+    <p> </p>
+    <button id="button1" onclick="displayName1()">new card</button>
+    <p> </p>
+    <span class="label Name2"><label id="newname2"></label></span>
+    <p> </p>
+    <p id="entername2"></p>
+    <p> </p>
+    <button id="button2" onclick="displayName2()">new card</button>
+    <p> </p>
+    <span class="label Name3"><label id="newname3"></label></span>
+    <p> </p>
+    <p id="entername3"></p>
+    <p> </p>
+    <button id="button3" onclick="displayName3()">new card</button>
+    <p> </p>
+    <span class="label Name4"><label id="newname4"></label></span>
+    <p> </p>
+    <p id="entername4"></p>
+    <p> </p>
+    <button id="button4" onclick="displayName4()">new card</button>
+
+    <script>
+        function displayName1() {
+          
+            var name1 = prompt("Please enter the name for the card", "");
+            
+                if (name != null) {
+                    document.getElementById("newname1").innerText = name1;
+                    document.getElementById("entername1").innerText = "Hello " + name1 +
+                        "\nEnjoy you're stay";
+                }
+            
+               
+
+            
+            //if (document.getElementById("button2").click) {
+            //    var name2 = prompt("Please enter the name for the card", "");
+            //    if (name2 != null) {
+            //        document.getElementById("newname2").innerHTML = name2;
+            //        document.getElementById("entername2").innerHTML = ("Hello " + name2 + "\n"+
+            //            "Enjoy you're stay");
+            //    }
+
+            //}
+           //else if (document.getElementById("button3").click) {
+           //     var name3 = prompt("Please enter the name for the card", "");
+           //     if (name3 != null) {
+           //         document.getElementById("newname3").innerHTML = name3;
+           //         document.getElementById("entername3").innerHTML = "Hello " + name3 + "\n"+
+           //             "Enjoy you're stay";
+           //     }
+
+           // }
+
+           // else (document.getElementById("button4").click) {
+           //     var name4 = prompt("Please enter the name for the card", "");
+           //     if (name4 != null) {
+           //         document.getElementById("newname4").innerHTML = name4;
+           //         document.getElementById("entername4").innerHTML = "Hello " + name4 + "\n"+
+           //             "Enjoy you're stay";
+           //     }
+
+           // }
+        }
+        function displayName2() {
+
+            var name2 = prompt("Please enter the name for the card", "");
+            if (name != null) {
+                document.getElementById("newname2").innerText = name2;
+                document.getElementById("entername2").innerText = "Hello " + name2 +
+                    "\nEnjoy you're stay";
+            }
+        }
+        function displayName3() {
+
+            var name3 = prompt("Please enter the name for the card", "");
+            if (name != null) {
+                document.getElementById("newname3").innerText = name3;
+                document.getElementById("entername3").innerText = "Hello " + name3 +
+                    "\nEnjoy you're stay";
+            }
+        }
+        function displayName4() {
+
+            var name4 = prompt("Please enter the name for the card", "");
+            if (name != null) {
+                document.getElementById("newname4").innerText = name4;
+                document.getElementById("entername4").innerText = "Hello " + name4 +
+                    "\nEnjoy you're stay";
+            }
+        }
+        
+    </script>
+</body>
+</html>
